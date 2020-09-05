@@ -1,0 +1,83 @@
+body {
+  font-family: 'Raleway', sans-serif;
+  size: 14px;
+  background-color: hsl(229, 57%, 11%);
+}
+
+.bg-img {
+  position: absolute;
+  display: inline-block;
+  bottom: 0;
+  width: 99%;
+}
+
+.content {
+  display: block;
+  position: relative;
+  top: 13rem;
+  margin: auto;
+  height: 15rem;
+  width: 70rem;
+}
+
+.content-common {
+  display: inline-block;
+  position: absolute;
+  bottom: 0;
+  border-radius: 1rem;
+}
+
+.toolbar {
+  left: 0;
+  height: 100%;
+  width: 23rem;
+  background-color: hsl(228, 56%, 26%);
+  padding-left: 2rem;
+}
+
+.logo {
+  height: 7.5rem;
+}
+
+.logo-img{
+  margin: 2.25rem 1rem 2.25rem 0;
+  height: 3rem;
+}
+
+.tools {
+  height: 7.5rem;
+}
+
+.tools-bg{
+  display: inline-block;
+  position: relative;
+  height: 4rem;
+  width: 4rem;
+  border-radius: 1rem;
+  background-color: hsl(229, 57%, 11%);
+  margin-right: 0.5rem;
+}
+
+.tools-icons {
+  width: 2.5rem;
+  max-height: 2.5rem;
+  position: absolute;
+  bottom: 0.6rem;
+  left: 0.75rem;
+}
+
+.usage {
+  right: 0;
+  height: 80%;
+  width: 40rem;
+  background-color: hsl(228, 56%, 26%);
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
