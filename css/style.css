@@ -4,6 +4,21 @@ body {
   background-color: hsl(229, 57%, 11%);
 }
 
+progress {
+  -webkit-appearance: none;
+}
+
+::-webkit-progress-bar {
+  background-color: hsl(229, 57%, 11%);
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+::-webkit-progress-value {
+  background-image: linear-gradient(90deg, hsl(6, 100%, 80%), hsl(335, 100%, 65%));
+  border-radius: 10px;
+}
+
 .bg-img {
   position: absolute;
   display: inline-block;
@@ -39,7 +54,7 @@ body {
   height: 7.5rem;
 }
 
-.logo-img{
+.logo-img {
   margin: 2.25rem 1rem 2.25rem 0;
   height: 3rem;
 }
@@ -48,7 +63,7 @@ body {
   height: 7.5rem;
 }
 
-.tools-bg{
+.tools-bg {
   display: inline-block;
   position: relative;
   height: 4rem;
@@ -58,7 +73,7 @@ body {
   margin-right: 0.5rem;
 }
 
-.tools-bg:hover{
+.tools-bg:hover {
   background-color: hsl(229, 7%, 55%);
 }
 
@@ -72,9 +87,42 @@ body {
 
 .usage {
   right: 0;
-  height: 80%;
+  height: 12rem;
   width: 40rem;
   background-color: hsl(228, 56%, 26%);
+  color: hsl(243, 100%, 93%);
+}
+
+.usage-text {
+  margin: 2rem 0 2rem 2rem;
+}
+
+.usage-bar-container {
+  position: relative;
+  height: 3rem;
+  width: 35rem;
+  margin: 0 auto;
+}
+
+.usage-bar {
+  display: block;
+  margin: 1rem auto;
+  width: 92.5%;
+  height: 1.2rem;
+}
+
+.usage-bar-text {
+  display: inline-block;
+  position: absolute;
+  margin: 0;
+}
+
+.usage-bar-text-min {
+  left: 0;
+}
+
+.usage-bar-text-max {
+  right: 0;
 }
 
 .attribution {
