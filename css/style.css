@@ -58,6 +58,10 @@ body {
   margin-right: 0.5rem;
 }
 
+.tools-bg:hover{
+  background-color: hsl(229, 7%, 55%);
+}
+
 .tools-icons {
   width: 2.5rem;
   max-height: 2.5rem;
